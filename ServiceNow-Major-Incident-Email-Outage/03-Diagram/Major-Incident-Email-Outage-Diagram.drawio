@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2026-06-12T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="128c745fed634463814d254fa1bc0123" name="Major-Incident-Email-Outage-Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="ServiceNow Major Incident Lab: Enterprise Email Outage &amp; Authentication Alerts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="90" y="20" width="900" height="70" as="geometry"/>
+    </mxCell><mxCell id="users" value="Affected Users&lt;br&gt;Sales, Finance, HR,&lt;br&gt;Operations, Executive Leadership" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="40" y="140" width="210" height="90" as="geometry"/>
+    </mxCell><mxCell id="helpdesk" value="Tier 1 Help Desk&lt;br&gt;Derrick Martinez&lt;br&gt;Major incident intake" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="320" y="140" width="220" height="90" as="geometry"/>
+    </mxCell><mxCell id="servicenow" value="ServiceNow Incident&lt;br&gt;INC0010018&lt;br&gt;Priority: Critical" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="610" y="140" width="230" height="90" as="geometry"/>
+    </mxCell><mxCell id="execs" value="Executives &amp; Customers&lt;br&gt;Delayed client communication&lt;br&gt;Reputation risk" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="900" y="140" width="230" height="90" as="geometry"/>
+    </mxCell><mxCell id="monitoring" value="Monitoring Dashboard&lt;br&gt;Email infrastructure alerts&lt;br&gt;Authentication failures" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="320" y="290" width="220" height="90" as="geometry"/>
+    </mxCell><mxCell id="triage" value="Triage &amp; WH- Questions&lt;br&gt;Who is affected?&lt;br&gt;What symptoms?&lt;br&gt;When did it start?&lt;br&gt;Where is impact?&lt;br&gt;Why critical?&lt;br&gt;How widespread?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="40" y="290" width="230" height="150" as="geometry"/>
+    </mxCell><mxCell id="sort" value="SORT+V Documentation&lt;br&gt;Situation&lt;br&gt;Objective&lt;br&gt;Resolution&lt;br&gt;Takeaway&lt;br&gt;Verification" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="610" y="290" width="230" height="150" as="geometry"/>
+    </mxCell><mxCell id="wolf" value="The Wolf Method&lt;br&gt;Assess&lt;br&gt;Define objective&lt;br&gt;Execute&lt;br&gt;Verify&lt;br&gt;Clean up/document" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="900" y="290" width="230" height="150" as="geometry"/>
+    </mxCell><mxCell id="escalation" value="Escalation Path&lt;br&gt;Messaging Team&lt;br&gt;Infrastructure Team&lt;br&gt;Network Team&lt;br&gt;SOC if auth failure indicates attack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="320" y="500" width="260" height="130" as="geometry"/>
+    </mxCell><mxCell id="continuity" value="Business Continuity&lt;br&gt;Alternate collaboration tools&lt;br&gt;Phone communication&lt;br&gt;Executive updates every 15 minutes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="40" y="510" width="230" height="120" as="geometry"/>
+    </mxCell><mxCell id="resolution" value="Resolution &amp; Verification&lt;br&gt;Root cause remediated&lt;br&gt;Email flow tested&lt;br&gt;Authentication restored&lt;br&gt;User confirmation received" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="650" y="510" width="250" height="130" as="geometry"/>
+    </mxCell><mxCell id="roi" value="Business Value / ROI&lt;br&gt;Reduced downtime&lt;br&gt;Protected client communication&lt;br&gt;Lowered revenue and reputation risk&lt;br&gt;Prevented duplicate tickets" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="930" y="510" width="250" height="130" as="geometry"/>
+    </mxCell><mxCell id="note" value="Portfolio Evidence&lt;br&gt;Report + screenshots + diagram + Loom walkthrough + GitHub README + LinkedIn post" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="350" y="700" width="520" height="100" as="geometry"/>
+    </mxCell><mxCell id="e1" value="reports outage" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="users" target="helpdesk">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e2" value="ticket created" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="helpdesk" target="servicenow">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e3" value="business pressure" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="execs" target="helpdesk">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e4" value="alerts reviewed" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="helpdesk" target="monitoring">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e5" value="facts gathered" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="helpdesk" target="triage">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e6" value="documented" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="servicenow" target="sort">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e7" value="method used" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="sort" target="wolf">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e8" value="confirmed enterprise scope" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="monitoring" target="escalation">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e9" value="temporary workarounds" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="helpdesk" target="continuity">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e10" value="cross-team response" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="escalation" target="resolution">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e11" value="value delivered" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="resolution" target="roi">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e12" value="evidence packaged" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="resolution" target="note">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell><mxCell id="e13" value="evidence packaged" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="roi" target="note">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
